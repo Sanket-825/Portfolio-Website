@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./BS/bootstrap-5.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/simple-line-icons.css">
+</head>
+<body>
+  <!-- Top Menu Bar ------------------>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-2" href="#"><img src="./images/bootstrap-logo-shadow.png" alt="logo" style="width: 45px; height: auto;"> <span>Bootstrap</span> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0 me-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#download">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#Donation">Donation</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Top Menu Bar End  --------->
+
+      <!-- Main Header ----------->
+
+      <header class="header_css d-flex align-items-center " id="home">
+        <div class="container text-center">
+            <h1 class="mb-3">Beautiful</h1>
+            <h3 class="mb-5"> <em>Beautiful theme design by bootstrap5</em> </h3>
+            <a class="btn btn-primary btn-info btn-xl" href="#">Go To Docs</a>
+        </div>
+      </header>
+
+      <!-- Main Header End  ---------->
+
+      <!-- About Section --------->
+
+      <section class="section_content bg-light" id="about">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <h2>Beautiful theme is the perfect theme for portfolio website</h2>
+              <p class="lead mb-5">This template uses google font and simple line icons.css for more beauty.</p>
+              <a  class="btn btn-dark btn-xl" href="#">More Info...</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section End --------->
+
+      <!-- Service Section  ---------->
+
+      <section class="section_content bg-primary text-center text-white" id="services">
+        <div class="container">
+          <div class="section_content_heading">
+            <h3 class="mb-0">Services</h3>
+            <h2 class="mb-5">What we offer</h2>
+          </div>  
+            <div class="row">
+              <div class="col-lg-3 col-md-6 mb-5 ">
+                <span class="service_icon rounded-circle mx-auto mb-3">
+                 <span class="icon-screen-smartphone "></span>
+                </span>
+                <h4><strong>Responsive</strong></h4>
+                <p class="fade_text mb-0">Looks great on any screen size!</p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 ">
+                <span class="service_icon rounded-circle mx-auto mb-3">
+                 <span class="icon-pencil"></span>
+                </span>
+                <h4><strong>Redesigned</strong></h4>
+                <p class="fade_text mb-0">
+                  Freshly Redeigned for Bootstrap
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 ">
+                <span class="service_icon rounded-circle mx-auto mb-3">
+                 <span class="icon-like"></span>
+                </span>
+                <h4><strong>Favourited</strong></h4>
+                <p class="fade_text mb-0">
+                  Millions of users start Bootstrap
+                </p>
+              </div>
+              <div class="col-lg-3 col-md-6 ">
+                <span class="service_icon rounded-circle mx-auto mb-3">
+                 <span class="icon-mustache"></span>
+                </span>
+                <h4><strong>Question</strong></h4>
+                <p class="fade_text mb-0">
+                  I mustache You a Question...
+                </p>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Service Section End ------->
+
+      <!-- Download Section ------->
+
+       <section class="d1" id="download">
+        <div class="container px-4 text-center">
+          <h2 class="mx-auto mb-5">Download the latest version from the link below</h2>
+          <a href="" class="btn btn-primary btn-xl">Download Now</a>
+        </div>
+       </section>
+
+      <!-- Download Section End ------->
+      
+      <!-- Portfolio Section  ------->
+
+      <section class="section_content" id="portfolio">
+        <div class="container px-4">
+            <!-----section 1----->
+            <div class="section_content_heading text-center">
+               <h3 class="mb-0 text-secondary">Portfolio</h3>
+               <h2 class="mb-4">Recent Projects</h2>
+            </div>
+            <!-----End section 1----->
+
+            <!-----section 2--------->
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <a class="mb-3 mx-auto portfolio_item">
+                        <img class="img-fluid" src="./images/portfolio-1.jpg" alt="...">
+                        <!----caption1 area ------>
+                        <div class="w-100 h-100 d-flex portfolio_item_caption">
+                            <div class="portfolio_item_caption_content">
+                                <h6 class="text-uppercase">Mail management</h6>
+                                <p class="fs-4 mb-0">Company email management panel</p>
+                            </div>
+                        </div>
+                        <!----End caption area-->
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <a class="mb-3 mx-auto portfolio_item">
+                        <img class="img-fluid" src="./images/portfolio-2.jpg" alt="...">
+                        <!----caption2 area------>
+                        <div class="w-100 h-100 d-flex portfolio_item_caption">
+                            <div class="portfolio_item_caption_content">
+                                <h6 class="text-uppercase">Choosing an organizational color</h6>
+                                <p class="fs-4 mb-0">
+                                    Attractive set of departments
+                                  </p>
+                            </div>
+                        </div>
+                        <!----End caption area-->
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <a class="mb-3 mx-auto portfolio_item">
+                         <img class="img-fluid" src="./images/portfolio-3.jpg" alt="...">
+                         <!----caption3 area------>
+                        <div class="w-100 h-100 d-flex portfolio_item_caption">
+                            <div class="portfolio_item_caption_content">
+                                <h6 class="text-uppercase">Photography</h6>
+                                <p class="fs-4 mb-0">
+                                    Photography of delicious fruits
+                                  </p>
+                            </div>
+                        </div>
+                        <!----End caption area-->
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <a class="mb-3 mx-auto portfolio_item">
+                        <img class="img-fluid" src="./images/portfolio-4.jpg" alt="...">
+                        <!----caption4 area------>
+                        <div class="w-100 h-100 d-flex portfolio_item_caption">
+                            <div class="portfolio_item_caption_content">
+                                <h6 class="text-uppercase">Work management</h6>
+                                <p class="fs-4 mb-0">Managing team tasks & bugs</p>
+                            </div>
+                        </div>
+                        <!----End caption area-->
+                    </a>
+                </div>
+            </div>
+            <!-----End section 2----->
+        </div>
+    </section>
+
+      <!-- Portfolio Section End ------->
+
+      <!-- Donation Section start ------->
+
+       <section class="section_content bg-primary text-white" id="Donation">
+        <div class="container px-4 text-center">
+          <h2>Support me through the links below</h2>
+          <a href="" class="btn btn-xl btn-light mx-4 mt-3 ">Paypal</a>
+          <a href="" class="btn btn-xl btn-dark mt-3">Bitcoin</a>
+        </div>
+       </section>
+
+      <!-- Donation Section End ------->
+
+      <!-- Footer Section End ------->
+
+       <footer class="text-center py-5">
+        <div class="container px-4">
+            <ul class="list-inline mb-4">
+              <li class="list-inline-item">
+                <a href="" class="social_link rounded-circle text-white me-1">
+                  <span class="icon-social-facebook"></span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="social_link2 rounded-circle text-dark me-1">
+                  <span class="icon-social-linkedin"></span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="" class="social_link3 rounded-circle text-white ">
+                  <span class="icon-social-instagram"></span>
+                </a>
+              </li>
+            </ul>
+            <p class="text-muted small mb-0">Copyright 2010-2024</p>
+            <p class="text-muted small mb-0">All rights reserved</p>
+        </div>
+       </footer>
+       
+      <!-- Footer Section End ------->
+
+    <script src="./BS/bootstrap-5.3.1-dist/js/bootstrap.js"></script>
+</body>
+</html>
